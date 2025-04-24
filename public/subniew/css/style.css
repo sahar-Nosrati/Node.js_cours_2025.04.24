@@ -1,0 +1,72 @@
+body {
+  background-image: url("../../img/spring-1311292.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  opacity: 0.5;
+  &:hover{
+   opacity: 1;
+  }
+}
+
+.cta {
+  background: #a0b2ba;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+
+  &:hover {
+    img {
+      top: -10%;
+      filter: brightness(70%);
+    }
+
+    .text {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+
+  img {
+    bottom: 0;
+    filter: brightness(100%);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    width: 115%;
+    opacity: 1;
+  }
+
+  .text {
+    bottom: -40%;
+    padding: 15px;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+
+    h2 {
+      color: #000000;
+      display: inline-block;
+      font-weight: 300;
+      margin-bottom: 5px;
+      position: relative;
+    }
+
+    p {
+      color: #000000;
+      font-weight: 300;
+    }
+  }
+}
+
+.link {
+   text-decoration: none;
+}

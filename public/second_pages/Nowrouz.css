@@ -1,0 +1,40 @@
+body {
+  background-image: url("/img/nowrouz-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  color: #BB86FC;
+  text-wrap: pretty;
+  text-align: center;
+}
+.img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 82.4em;
+  margin-right: auto;
+}
+.image {
+  display: flex;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.text {
+  color: #f6fa0e;
+  line-height: 30px;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 450;
+  margin-top: 75px;
+  margin-left: 200px;
+}
+.Nowrouzlink{
+  text-decoration: none;
+  color: rgb(61, 128, 243);
+}
